@@ -7,12 +7,12 @@ git add test.txt                    #파일을 스테이징 (index에 추가)
 git status --short                  #스테이징 완료 여부를 확인
 git commit -m "Add test.txt"        #스테이징된 변경 커밋~오류발생: Git사용자이름/ 이메일 미설정
     ###(권장) 전역 사용자 정보 설정 — 한 번만 설정하면 이후 모든 repo에 적용
-git config --global user.email "upendi2004@gmail.com"   # GitHub 계정에 등록된 이메일
-git config --global user.name "upendi-lee"  #실제 이름(또는 GitHub 표시명)
+git config --global user.email "*******@gmail.com"   # GitHub 계정에 등록된 이메일
+git config --global user.name "******-lee"  #실제 이름(또는 GitHub 표시명)
 
     ###(원하면) 이 리포지토리에서만 설정하려면 --global 없이 실행:
-git config user.email "upendi2004@gmail.com"
-git config user.name "upendi-lee"
+git config user.email "*******@gmail.com"
+git config user.name "*******-lee"
     ###사용자 정보 설정 후 커밋 재시도
 PS D:\2025-intel\rag-test-main> git commit -m "Add test.txt" #커밋 재시도:
     [master (root-commit) b36824e] Add test.txt

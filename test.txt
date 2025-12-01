@@ -1,0 +1,4 @@
+github에서 zip압축화일 다운로드 완료
+PS D:\2025-intel> cd D:\2025-intel\rag-test-main   #폴더로 이동
+PS D:\2025-intel\rag-test-main> git status          #git 상태확인
+fatal: not a git repository (or any of the parent directories): .git
